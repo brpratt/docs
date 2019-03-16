@@ -2,6 +2,16 @@
 
 ## F# Plugin options
 
+### `How to set an option?`
+
+Each option needs to be in VS Code's settings.json file. You can get to this file by going through the ***view/command pallet...*** menu, and then by typing "settings (JSON)" followed by [enter] in the revealed search box. Insert one of the settings described here into this file, in JSON syntax.
+
+For example, plug in the last line below if you'd like an experimental speed boost:
+
+  ...
+  "workbench.statusBar.visible": false,
+  "FSharp.fsacRuntime": "netcore"}
+
 ### `FSharp.fsacRuntime`
 
 Choose the runtime of FsAutoComplete (FSAC). Require restart
